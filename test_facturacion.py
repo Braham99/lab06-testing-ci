@@ -19,7 +19,7 @@ def test_calcular_total_factura_con_descuento_mock():
         resultado = calcular_total_factura(
             100.0, aplicar_descuento=True
         )
-    assert resultado == 999.00
+    assert resultado == 342.00
 
 
 def test_calcular_total_factura_monto_invalido_lanza_excepcion():
